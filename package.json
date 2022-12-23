@@ -1,0 +1,7 @@
+{
+  "name": "video_streaming",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
+}
