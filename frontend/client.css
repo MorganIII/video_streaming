@@ -1,0 +1,49 @@
+/* Use a modern, clean sans-serif font for the headings and body text */
+h1, h2, h3, body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Use a color scheme similar to the colors used on YouTube */
+body {
+  color: #333333;
+}
+
+a {
+  color: #0066cc;
+}
+
+/* Use a responsive layout similar to the layout used on YouTube */
+@media (min-width: 600px) {
+  #video-list {
+    width: 30%;
+    float: left;
+    padding: 20px;
+  }
+
+  #video-player {
+    width: 70%;
+    float: right;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #video-list, #video-player {
+    width: 100%;
+    float: none;
+    padding: 20px;
+  }
+}
+
+/* Add some padding and whitespace to the page to make it easier to read and navigate */
+header {
+  padding: 20px 0;
+}
+
+main {
+  padding: 0 20px;
+}
+
+#video-list, #video-player {
+  padding: 20px 0;
+}
